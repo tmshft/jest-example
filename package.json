@@ -1,14 +1,15 @@
 {
   "name": "jest-example",
   "version": "0.0.0",
-  "description": "",
+  "description": "This is a sample repo that contains the [getting started](http://facebook.github.io/jest/docs/getting-started.html#content) Jest example and outputs JUnit XML for each test using [jasmine-reporters](https://github.com/larrymyers/jasmine-reporters).",
   "main": "index.js",
   "dependencies": {
     "istanbul": "^0.3.0",
     "jest-cli": "git://github.com/hankhsiao/jest.git"
   },
   "devDependencies": {
-    "jasmine-reporters": "^1.0.0"
+    "jasmine-reporters": "^1.0.0",
+    "jest": "^26.6.3"
   },
   "scripts": {
     "test": "jest"
@@ -16,8 +17,14 @@
   "author": "",
   "license": "ISC",
   "jest": {
-    "collectCoverage": true,
-    "coverageFormats": ["json", "html"],
-    "setupTestFrameworkScriptFile": "<rootDir>/setup-jasmine-env.js"
-  }
+    "collectCoverage": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palcu/jest-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/palcu/jest-example/issues"
+  },
+  "homepage": "https://github.com/palcu/jest-example#readme"
 }
